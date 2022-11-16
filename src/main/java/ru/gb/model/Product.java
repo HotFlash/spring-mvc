@@ -7,6 +7,18 @@ public class Product {
     private String title;
     private Long cost;
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCost(Long cost) {
+        this.cost = cost;
+    }
+
     public Product(Long id, String title, Long cost) {
         this.id = id;
         this.title = title;
