@@ -16,7 +16,8 @@ public class ProductController {
             new Product(2L, "Product #2", 200L),
             new Product(3L, "Product #3", 300L),
             new Product(4L, "Product #4", 400L),
-            new Product(5L, "Product #5", 500L)
+            new Product(5L, "Product #5", 500L),
+            new Product(6L, "Product #6", 600L)
     );
 
     @GetMapping("/{id}")
