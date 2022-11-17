@@ -24,4 +24,16 @@ public class Product {
     public Long getCost() {
         return cost;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCost(Long cost) {
+        this.cost = cost;
+    }
 }
